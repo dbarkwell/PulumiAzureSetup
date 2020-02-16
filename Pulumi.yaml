@@ -1,0 +1,3 @@
+name: PulumiAzureSetup
+runtime: dotnet
+description: Configure Pulumi Service Principal

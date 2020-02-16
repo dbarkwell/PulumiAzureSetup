@@ -1,0 +1,1 @@
+Pulumi implementation of my [blog post](https://dan.barkwell.com/blog/2020/02/15/pulumi-and-azure-setup) which used the Azure CLI
