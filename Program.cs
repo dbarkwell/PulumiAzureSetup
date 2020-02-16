@@ -46,7 +46,6 @@ class Program
                     Name = resourceGroupName
                 });
             
-            
             var application = new Application(
                 "Application",
                 new ApplicationArgs
