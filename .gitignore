@@ -353,3 +353,5 @@ MigrationBackup/
 .ionide/
 
 Pulumi.dev.yaml
+**/*.pyc
+**/venv/
