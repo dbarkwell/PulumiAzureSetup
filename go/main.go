@@ -37,9 +37,9 @@ func main() {
 		}
 
 		_, err = role.NewAssignment(ctx, "RoleAssignment", &role.AssignmentArgs{
-			PrincipalId:                  azureADGroup.ObjectId,
-			RoleDefinitionName:           roleDefinition.Name,
-			Scope:                        pulumi.String(scope),
+			PrincipalId:        azureADGroup.ObjectId,
+			RoleDefinitionName: roleDefinition.Name,
+			Scope:              pulumi.String(scope),
 		})
 		if err!= nil {
 			return err
