@@ -355,3 +355,5 @@ MigrationBackup/
 Pulumi.dev.yaml
 **/*.pyc
 **/venv/
+
+**/vendor/

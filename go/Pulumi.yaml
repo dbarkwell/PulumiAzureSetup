@@ -1,0 +1,3 @@
+name: PulumiAzureSetup3
+runtime: go
+description: Pulumi Azure Setup in Go
